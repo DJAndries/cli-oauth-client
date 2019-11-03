@@ -1,0 +1,19 @@
+{
+  "name": "cli-oauth-client",
+  "version": "1.0.0",
+  "description": "Library and CLI tool that requests OAuth 1.0 tokens without need for a remote server",
+  "main": "src/index.js",
+  "bin": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Darnell Andries",
+  "license": "MIT",
+  "peerDependencies": {
+    "oauth": "^0.9.15"
+  },
+  "dependencies": {
+    "open": "^7.0.0",
+    "qs": "^6.9.0"
+  }
+}
